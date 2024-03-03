@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: lightgreen;
+  }
+  
+  .box {
+    margin-top: 50px; /* Adjust as needed */
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .city {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Location_mark {
+    margin-right: 10px;
+  }
+  
+  .cityName {
+    font-size: 24px;
+  }
+  
+  .weatherInfo {
+    margin-top: 15px;
+  }
+  
+  .temp {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .minmax {
+    font-size: 16px;
+    color: #555;
+  }
+  
